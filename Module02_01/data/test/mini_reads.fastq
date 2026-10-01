@@ -1,0 +1,12 @@
+@read001_control
+ACGTACGT
++
+IIIIIIII
+@read002_treatment
+GGCATGCA
++
+IIIIHHHH
+@read003_low_quality
+TTTTCCCC
++
+!!!!IIII
