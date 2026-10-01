@@ -12,7 +12,7 @@ This is a growing course repository. Materials will be added as classes progress
 ### Module map
 
 | Module | Focus |
-|---|---|---|
+|---|---|
 | [Module02_01](Module02_01/) | Thematic block 1: Unix terminal, biological text files, `grep`/`awk`/`sed`, and Bash script organization |
 | Module02_02 | Thematic block 2: Python scripting, bioinformatics file formats |
 
