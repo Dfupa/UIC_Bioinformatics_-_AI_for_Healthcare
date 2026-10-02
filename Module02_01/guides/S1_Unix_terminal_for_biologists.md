@@ -1,5 +1,4 @@
-# Session 1 follow-along — From files to verified biological evidence
-
+# Session 1 follow along: Unix terminal for biologists.
 > Execute commands in a native terminal from the `Module02-01/` directory.
 
 ## Purpose

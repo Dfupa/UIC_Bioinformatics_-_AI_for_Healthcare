@@ -1,4 +1,4 @@
-# Session 02 — Follow along: Bash wrappers, sourcing, links
+# Session 02 follow along: Bash wrappers, sourcing, link.
 
 
 ## Purpose
