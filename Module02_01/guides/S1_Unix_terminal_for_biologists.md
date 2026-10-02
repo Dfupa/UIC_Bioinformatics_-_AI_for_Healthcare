@@ -336,7 +336,30 @@ validation:
 - FASTQ sequence and quality strings must have equal lengths and are set in groups of 4 lines;
 
 
-## 15. Combine and compare tables by relationship
+## 15. AI review checkpoint: Your first task
+Your first task at this research group was to select protein_coding genes with mean expression at least 150 and provides genomic coordinates. 
+
+Ask an AI assistant for one awk command that preserves the header and  do so.
+
+
+Genomic coordinates ->  chrN:start-end
+
+
+Remember:
+
+1. Think carefully about the file you are working on
+2. Trying to predict the output is key to provide accurate info to the prompt
+3. Iterate its results with an independent command or manual inspection till reaching the solution
+
+
+`REMEMBER: DO NOT PROVIDE THE INPUT FILES NOR COPY-PASTE IT TO THE AI CHATBOT/AGENT.`
+`Assume it holds sensible information and that you signed a NDA. `
+
+
+And if were to be iRNA (lncRNA + miRNA) simultanously over 10 mean expression?
+
+
+## 16. Combine and compare tables by relationship
 
 Choose the command from the relationship between the inputs:
 
@@ -385,7 +408,7 @@ join --header -t $'\t' -1 1 -2 1 \
 head -n 5 gene_annotation_expression.tsv
 ```
 
-## 16. Extra commands for niche uses: split and shuf
+## 17. Extra commands for niche uses: split and shuf
 
 - `split` splits a file into pieces.
   -l, allows to set the number of lines/records per output partition file.
@@ -420,7 +443,7 @@ split -l 5 data/test/mini_reads.fastq read_part_
 Do not treat these outputs as valid transformed biological files.
 
 
-## 17. Work with compressed streams
+## 18. Work with compressed streams
 
 `gzip` changes storage, not the logical tabular structure. Use `gzip -c` to
 create a compressed result without replacing its source, and use `zgrep` or

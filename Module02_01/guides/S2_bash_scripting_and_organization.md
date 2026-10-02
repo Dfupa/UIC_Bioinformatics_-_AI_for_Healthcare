@@ -115,19 +115,6 @@ minimum expression: 100
 
 Expected genes: `GENE007`, `GENE009`, and `GENE020`.
 
-## AI checkpoint A — propose failure tests
-
-Before reading the supplied failure tests, ask an AI assistant:
-
-```text
-A Bash wrapper accepts an input TSV and an output path. Propose three focused
-failure tests. For each, state the expected exit behavior and what must remain
-unchanged. Do not write the complete wrapper.
-```
-
-Record one useful test and one assumption or risk the suggestion missed. Do
-not execute an AI-generated destructive command.
-
 ## 6. Override configuration through arguments
 
 ```bash
