@@ -20,6 +20,8 @@ This is a growing course repository. Materials will be added as classes progress
 | Start here | What it contains |
 |---|---|
 | [Session 1 guide](Module02_01/guides/S1_Unix_terminal_for_biologists.md) | Navigate files and inspect, filter, use editors (`awk`/`sed`) and combine biological text data. |
+| [Session 2 guide](Module02_01/guides/S2_bash_scripting_and_organization.md) | Bash wrappers, configuration, symbolic links, and script review. |
+| [Colab notebooks](Module02_01/notebooks/) | Both sessions as executable notebooks, with optional terminals and Google Drive inputs. |
 | [Teaching data](Module02_01/data/teaching/) and [test fixtures](Module02_01/data/test/) | Small synthetic inputs and known-answer checks. The [data note](Module02_01/data/teaching/SOURCE.md) explains their provenance. |
 
 
