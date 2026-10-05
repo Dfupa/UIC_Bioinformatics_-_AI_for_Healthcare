@@ -1,0 +1,6 @@
+biopython>=1.85,<2
+jupyterlab>=4,<5
+matplotlib>=3.9,<4
+numpy>=2,<3
+pandas>=2.2,<3
+pysam>=0.23,<0.24

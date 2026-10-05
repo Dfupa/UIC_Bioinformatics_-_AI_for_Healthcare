@@ -1,0 +1,7 @@
+##fileformat=VCFv4.2
+##source=Module02-02_synthetic_data
+##contig=<ID=chr1,length=100>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO
+chr1	25	.	A	G	60	PASS	.
+chr1	90	.	C	T	20	PASS	.
+chr2	15	.	G	A	50	PASS	.
