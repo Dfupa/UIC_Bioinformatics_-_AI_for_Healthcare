@@ -1,0 +1,41 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM2730v1
+#!genome-build-accession NCBI_Assembly:GCF_000027305.1
+##sequence-region NC_000907.1 1 1830138
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=71421
+NC_000907.1	RefSeq	region	1	1830138	.	+	.	ID=id0;Dbxref=taxon:71421;Is_circular=true;Name=ANONYMOUS;gbkey=Src;genome=chromosome;mol_type=genomic DNA;old-name=Haemophilus influenzae Rd
+NC_000907.1	RefSeq	remark	1	1830138	.	+	.	ID=id1;Note=REFSEQ gene predictions performed by GeneMark 2.4/GeneMark.hmm 2.0 with comparison to original submitter provided annotation%3B tRNA sequences predicted using tRNAscan-SE 1.21;gbkey=Comment
+NC_000907.1	RefSeq	gene	2	1021	.	+	.	ID=gene0;Dbxref=GeneID:950899;Name=gapdH;gbkey=Gene;gene=gapdH;gene_biotype=protein_coding;locus_tag=HI0001
+NC_000907.1	RefSeq	CDS	2	1021	.	+	0	ID=cds0;Parent=gene0;Dbxref=Genbank:NP_438174.1,GeneID:950899;Name=NP_438174.1;Note=catalyzes the formation of 3-phospho-D-glyceroyl phosphate from D-glyceraldehyde 3-phosphate;gbkey=CDS;gene=gapdH;product=glyceraldehyde-3-phosphate dehydrogenase;protein_id=NP_438174.1;transl_table=11
+NC_000907.1	RefSeq	gene	1190	3013	.	+	.	ID=gene1;Dbxref=GeneID:950897;Name=HI0002;gbkey=Gene;gene_biotype=protein_coding;locus_tag=HI0002
+NC_000907.1	RefSeq	CDS	1190	3013	.	+	0	ID=cds1;Parent=gene1;Dbxref=Genbank:NP_438175.1,GeneID:950897;Name=NP_438175.1;Note=similar to GB:AE000782;gbkey=CDS;product=long chain fatty acid CoA ligase;protein_id=NP_438175.1;transl_table=11
+NC_000907.1	RefSeq	gene	3050	3838	.	-	.	ID=gene2;Dbxref=GeneID:950898;Name=HI0003;gbkey=Gene;gene_biotype=protein_coding;locus_tag=HI0003
+NC_000907.1	RefSeq	CDS	3050	3838	.	-	0	ID=cds2;Parent=gene2;Dbxref=Genbank:NP_438176.1,GeneID:950898;Name=NP_438176.1;Note=similar to GB:L10328 SP:P09997 PID:290545 PID:41648 GB:U00096;gbkey=CDS;product=haloacid dehalogenase-like protein;protein_id=NP_438176.1;transl_table=11
+NC_000907.1	RefSeq	gene	3854	4318	.	-	.	ID=gene3;Dbxref=GeneID:950900;Name=HI0004;gbkey=Gene;gene_biotype=protein_coding;locus_tag=HI0004
+NC_000907.1	RefSeq	CDS	3854	4318	.	-	0	ID=cds3;Parent=gene3;Dbxref=Genbank:NP_438177.1,GeneID:950900;Name=NP_438177.1;Note=similar to GB:U00096 SP:P77385 PID:1778578 PID:1786880;gbkey=CDS;product=metalloprotease;protein_id=NP_438177.1;transl_table=11
+NC_000907.1	RefSeq	gene	4579	5391	.	-	.	ID=gene4;Dbxref=GeneID:950902;Name=fdhD;gbkey=Gene;gene=fdhD;gene_biotype=protein_coding;locus_tag=HI0005
+NC_000907.1	RefSeq	CDS	4579	5391	.	-	0	ID=cds4;Parent=gene4;Dbxref=Genbank:NP_438178.1,GeneID:950902;Name=NP_438178.1;Note=involved in the production or activity of formate dehydrogenase-H which is active when nitrate is not present during anaerobic growth;gbkey=CDS;gene=fdhD;product=formate dehydrogenase accessory protein;protein_id=NP_438178.1;transl_table=11
+NC_000907.1	RefSeq	gene	5662	8748	.	+	.	ID=gene5;Dbxref=GeneID:950901;Name=fdnG;gbkey=Gene;gene=fdnG;gene_biotype=pseudogene;locus_tag=HI0006m;pseudo=true;pseudogene=unknown
+NC_000907.1	RefSeq	sequence_feature	5662	8748	.	+	.	ID=id2;Dbxref=GeneID:950901;Note=similar to formate dehydrogenase large subunit%3B contains frameshifts;gbkey=misc_feature;gene=fdnG;pseudogene=unknown
+NC_000907.1	RefSeq	gene	8750	9688	.	+	.	ID=gene6;Dbxref=GeneID:950904;Name=fdxH;gbkey=Gene;gene=fdxH;gene_biotype=protein_coding;locus_tag=HI0007
+NC_000907.1	RefSeq	CDS	8750	9688	.	+	0	ID=cds5;Parent=gene6;Dbxref=Genbank:NP_438180.1,GeneID:950904;Name=NP_438180.1;Note=similar to SP:P24184 GB:U00096 PID:1742408 PID:1742418 PID:1787749;gbkey=CDS;gene=fdxH;product=formate dehydrogenase subunit beta;protein_id=NP_438180.1;transl_table=11
+NC_000907.1	RefSeq	gene	9681	10397	.	+	.	ID=gene7;Dbxref=GeneID:950906;Name=fdxI;gbkey=Gene;gene=fdxI;gene_biotype=protein_coding;locus_tag=HI0008
+NC_000907.1	RefSeq	CDS	9681	10397	.	+	0	ID=cds6;Parent=gene7;Dbxref=Genbank:NP_438181.1,GeneID:950906;Name=NP_438181.1;Note=similar to GB:L19201 SP:P32174 PID:304996 GB:U00096 PID:1790325;gbkey=CDS;gene=fdxI;product=formate dehydrogenase subunit gamma;protein_id=NP_438181.1;transl_table=11
+NC_000907.1	RefSeq	gene	10467	11375	.	+	.	ID=gene8;Dbxref=GeneID:950905;Name=fdhE;gbkey=Gene;gene=fdhE;gene_biotype=protein_coding;locus_tag=HI0009
+NC_000907.1	RefSeq	CDS	10467	11375	.	+	0	ID=cds7;Parent=gene8;Dbxref=Genbank:NP_438182.1,GeneID:950905;Name=NP_438182.1;Note=required for the formation of active formate dehydrogenase;gbkey=CDS;gene=fdhE;product=formate dehydrogenase accessory protein FdhE;protein_id=NP_438182.1;transl_table=11
+NC_000907.1	RefSeq	gene	11414	11854	.	-	.	ID=gene9;Dbxref=GeneID:950907;Name=rimI;gbkey=Gene;gene=rimI;gene_biotype=protein_coding;locus_tag=HI0010
+NC_000907.1	RefSeq	CDS	11414	11854	.	-	0	ID=cds8;Parent=gene9;Dbxref=Genbank:NP_438183.1,GeneID:950907;Name=NP_438183.1;Note=alanine acetyltransferase that specifically acetylates ribosomal protein S18;gbkey=CDS;gene=rimI;product=ribosomal-protein-alanine N-acetyltransferase;protein_id=NP_438183.1;transl_table=11
+NC_000907.1	RefSeq	gene	1824562	1826643	.	-	.	ID=gene1761;Dbxref=GeneID:950549;Name=recG;gbkey=Gene;gene=recG;gene_biotype=protein_coding;locus_tag=HI1740
+NC_000907.1	RefSeq	CDS	1824562	1826643	.	-	0	ID=cds1606;Parent=gene1761;Dbxref=Genbank:NP_439884.1,GeneID:950549;Name=NP_439884.1;Note=catalyzes branch migration in Holliday junction intermediates;gbkey=CDS;gene=recG;product=ATP-dependent DNA helicase RecG;protein_id=NP_439884.1;transl_table=11
+NC_000907.1	RefSeq	gene	1826640	1828754	.	-	.	ID=gene1762;Dbxref=GeneID:950884;Name=spoT;gbkey=Gene;gene=spoT;gene_biotype=protein_coding;locus_tag=HI1741
+NC_000907.1	RefSeq	CDS	1826640	1828754	.	-	0	ID=cds1607;Parent=gene1762;Dbxref=Genbank:NP_439885.2,GeneID:950884;Name=NP_439885.2;Note=similar to GB:L10328 SP:P17580 GB:M24503 PID:290500 PID:551840;gbkey=CDS;gene=spoT;product=guanosine-3'5'-bis(diphosphate) 3'- pyrophosphohydrolase;protein_id=NP_439885.2;transl_table=11
+NC_000907.1	RefSeq	gene	1828934	1829200	.	-	.	ID=gene1763;Dbxref=GeneID:950552;Name=rpoZ;gbkey=Gene;gene=rpoZ;gene_biotype=protein_coding;locus_tag=HI1742
+NC_000907.1	RefSeq	CDS	1828934	1829200	.	-	0	ID=cds1608;Parent=gene1763;Dbxref=Genbank:NP_439886.1,GeneID:950552;Name=NP_439886.1;Note=promotes RNA polymerase assembly or stability%3B latches the N- and C-terminal regions of the beta' subunit thereby facilitating its interaction with the beta and alpha subunits;gbkey=CDS;gene=rpoZ;product=DNA-directed RNA polymerase subunit omega;protein_id=NP_439886.1;transl_table=11
+NC_000907.1	RefSeq	gene	1829263	1829889	.	-	.	ID=gene1764;Dbxref=GeneID:950885;Name=gmk;gbkey=Gene;gene=gmk;gene_biotype=protein_coding;locus_tag=HI1743
+NC_000907.1	RefSeq	CDS	1829263	1829889	.	-	0	ID=cds1609;Parent=gene1764;Dbxref=Genbank:NP_439887.1,GeneID:950885;Name=NP_439887.1;Note=Essential for recycling GMP and indirectly%2C cGMP;gbkey=CDS;gene=gmk;product=guanylate kinase;protein_id=NP_439887.1;transl_table=11
+NC_000907.1	RefSeq	gene	104277	105274	.	+	.	ID=gene101;Dbxref=GeneID:950998;Name=hitA;gbkey=Gene;gene=hitA;gene_biotype=protein_coding;locus_tag=HI0097
+NC_000907.1	RefSeq	CDS	104277	104318	.	+	0	ID=cds94;Parent=gene101;Dbxref=Genbank:NP_438271.2,GeneID:950998;Name=NP_438271.2;Note=periplasmic ferric iron binding protein%3B contains a frameshift with respect to purified protein%3B similar to PID:2340838;gbkey=CDS;gene=hitA;product=iron-utilization periplasmic protein hFbpA;protein_id=NP_438271.2;transl_table=11
+NC_000907.1	RefSeq	CDS	104318	105274	.	+	0	ID=cds94;Parent=gene101;Dbxref=Genbank:NP_438271.2,GeneID:950998;Name=NP_438271.2;Note=periplasmic ferric iron binding protein%3B contains a frameshift with respect to purified protein%3B similar to PID:2340838;gbkey=CDS;gene=hitA;product=iron-utilization periplasmic protein hFbpA;protein_id=NP_438271.2;transl_table=11
+###

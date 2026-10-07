@@ -1,0 +1,6 @@
+metric	value
+CDS_rows	1617
+distinct_GFF_protein_ids	1610
+FAA_records	1610
+GFF_ids_missing_from_FAA	0
+FAA_ids_missing_from_GFF	0

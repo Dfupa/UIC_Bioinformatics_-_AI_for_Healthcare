@@ -1,0 +1,15 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM2730v1
+#!genome-build-accession NCBI_Assembly:GCF_000027305.1
+##sequence-region NC_000907.1 1 1830138
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=71421
+NC_000907.1	RefSeq	region	1	1830138	.	+	.	ID=id0;Dbxref=taxon:71421;Is_circular=true;Name=ANONYMOUS;gbkey=Src;genome=chromosome;mol_type=genomic DNA;old-name=Haemophilus influenzae Rd
+NC_000907.1	RefSeq	remark	1	1830138	.	+	.	ID=id1;Note=REFSEQ gene predictions performed by GeneMark 2.4/GeneMark.hmm 2.0 with comparison to original submitter provided annotation%3B tRNA sequences predicted using tRNAscan-SE 1.21;gbkey=Comment
+NC_000907.1	RefSeq	gene	2	1021	.	+	.	ID=gene0;Dbxref=GeneID:950899;Name=gapdH;gbkey=Gene;gene=gapdH;gene_biotype=protein_coding;locus_tag=HI0001
+NC_000907.1	RefSeq	CDS	2	1021	.	+	0	ID=cds0;Parent=gene0;Dbxref=Genbank:NP_438174.1,GeneID:950899;Name=NP_438174.1;Note=catalyzes the formation of 3-phospho-D-glyceroyl phosphate from D-glyceraldehyde 3-phosphate;gbkey=CDS;gene=gapdH;product=glyceraldehyde-3-phosphate dehydrogenase;protein_id=NP_438174.1;transl_table=11
+NC_000907.1	RefSeq	gene	104277	105274	.	+	.	ID=gene101;Dbxref=GeneID:950998;Name=hitA;gbkey=Gene;gene=hitA;gene_biotype=protein_coding;locus_tag=HI0097
+NC_000907.1	RefSeq	CDS	104277	104318	.	+	0	ID=cds94;Parent=gene101;Dbxref=Genbank:NP_438271.2,GeneID:950998;Name=NP_438271.2;Note=periplasmic ferric iron binding protein%3B contains a frameshift with respect to purified protein%3B similar to PID:2340838;gbkey=CDS;gene=hitA;product=iron-utilization periplasmic protein hFbpA;protein_id=NP_438271.2;transl_table=11
+NC_000907.1	RefSeq	CDS	104318	105274	.	+	0	ID=cds94;Parent=gene101;Dbxref=Genbank:NP_438271.2,GeneID:950998;Name=NP_438271.2;Note=periplasmic ferric iron binding protein%3B contains a frameshift with respect to purified protein%3B similar to PID:2340838;gbkey=CDS;gene=hitA;product=iron-utilization periplasmic protein hFbpA;protein_id=NP_438271.2;transl_table=11
+###
