@@ -33,11 +33,14 @@ Run the Session 1 and 2 guides from `Module02_01/guides`.
 
 | Start here | What it contains |
 |---|---|
-| [Session 3 student notebook](Module02_02/notebooks/S03_python_sequence_analysis.ipynb) | Primary guided notebook for the teaching session. |
+| [Session 3 student notebook](Module02_02/notebooks/S03_python_basics_in_bioinformatics.ipynb) | Python basics, sequence analysis, and comparisons with Biopython. |
+| [Session 4 student notebook](Module02_02/notebooks/S04_bioinformatics_formats_and_validation.ipynb) | Inspect and validate FASTA, FASTQ, SAM/BAM, VCF, GFF3/GTF, and BED conventions, including a real annotation/protein comparison. |
+| [Homework assignment](Module02_02/homework/assignment.md) and [starter notebook](Module02_02/homework/H1_haemophilus_cds_to_protein.ipynb) | Extract strand-aware, multi-segment CDS from *H. influenzae*, translate with table 11, and compare at least six proteins with the supplied annotations. Submit the notebook, `protein_validation.tsv`, `README.md`, and `ai_use.md`. |
 | [Teaching data](Module02_02/data/teaching/) | PhiX174 FASTA, a 100-read FASTQ excerpt, and matching orchid FASTA/GenBank records. See the [data notes](Module02_02/data/teaching/README.md). |
+| [Haemophilus influenzae dataset](Module02_02/data/teaching/haemophilus_influenzae/) | Pinned Rd KW20 reference, GFF3 annotation, protein FASTA, teaching/homework subsets, known-answer tables, and checksums. See the [dataset notes](Module02_02/data/teaching/haemophilus_influenzae/README.md). |
 | [Format-validation fixtures](Module02_02/data/test/) | Compact FASTA, FASTQ, SAM/BAM, VCF, GFF3, and BED examples containing known valid properties and deliberate defects. |
 
-Materials for Sessions 4 and 5 will continue to be added to `Module02_02`.
+Materials for Session 5 will continue to be added to `Module02_02`.
 
 ## Software requirements
 
@@ -55,8 +58,8 @@ verification commands, and before-class checklist are in
 | `gzip` and `sha256sum` | Validate compressed reads and file integrity | Required for the Session 5 workflow |
 | `samtools` | Check BAM integrity, headers, and indexes | Strongly recommended |
 
-Start Jupyter from the `Module02_02/` directory so thatSpark is not required. 
-the notebooks can resolve the supplied data paths consistently.
+Start Jupyter from the `Module02_02/` directory so that
+the notebooks can resolve the supplied data paths consistently. Spark is not required.
 
 
 ## Bioinformatics file formats cheat sheet

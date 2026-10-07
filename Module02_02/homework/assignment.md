@@ -16,7 +16,7 @@ Use:
 data/teaching/haemophilus_influenzae/reference.fna
 data/teaching/haemophilus_influenzae/subsets/homework_features.gff3
 data/teaching/haemophilus_influenzae/proteins.faa
-notebooks/04_homework_haemophilus_cds_to_protein.ipynb
+notebooks/H1_haemophilus_cds_to_protein.ipynb
 ```
 
 Tyrone tells you that the declared CDS translation table for H. influenzae is **11** and tips you to verify the dataset README and
