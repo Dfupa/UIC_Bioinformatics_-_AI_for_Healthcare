@@ -1,0 +1,14 @@
+track name=capstone_targets description=Blinded teaching targets
+ref_01	44390	44591	target_01
+ref_01	81180	81381	target_02
+ref_01	119586	119787	target_03
+ref_01	165170	165371	target_04
+ref_01	204754	204958	target_05
+ref_01	247739	247940	target_06
+ref_01	290865	291066	target_07
+ref_01	335274	335475	target_08
+ref_01	377715	377916	target_09
+ref_01	418514	418717	target_10
+ref_01	463646	463847	target_11
+ref_01	506457	506658	target_12
+ref_01	530000	530000	target_13

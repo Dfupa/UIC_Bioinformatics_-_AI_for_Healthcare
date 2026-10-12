@@ -35,12 +35,32 @@ Run the Session 1 and 2 guides from `Module02_01/guides`.
 |---|---|
 | [Session 3 student notebook](Module02_02/notebooks/S03_python_basics_in_bioinformatics.ipynb) | Python basics, sequence analysis, and comparisons with Biopython. |
 | [Session 4 student notebook](Module02_02/notebooks/S04_bioinformatics_formats_and_validation.ipynb) | Inspect and validate FASTA, FASTQ, SAM/BAM, VCF, GFF3/GTF, and BED conventions, including a real annotation/protein comparison. |
+| [Session 5 student notebook](Module02_02/notebooks/S05_day_to_day_bioinformatician.ipynb) | Assess a blinded bacterial release candidate through intake, integrity, format, coordinate, and cross-file checks; record evidence and make a release decision. |
 | [Homework assignment](Module02_02/homework/assignment.md) and [starter notebook](Module02_02/homework/H1_haemophilus_cds_to_protein.ipynb) | Extract strand-aware, multi-segment CDS from *H. influenzae*, translate with table 11, and compare at least six proteins with the supplied annotations. Submit the notebook, `protein_validation.tsv`, `README.md`, and `ai_use.md`. |
 | [Teaching data](Module02_02/data/teaching/) | PhiX174 FASTA, a 100-read FASTQ excerpt, and matching orchid FASTA/GenBank records. See the [data notes](Module02_02/data/teaching/README.md). |
 | [Haemophilus influenzae dataset](Module02_02/data/teaching/haemophilus_influenzae/) | Pinned Rd KW20 reference, GFF3 annotation, protein FASTA, teaching/homework subsets, known-answer tables, and checksums. See the [dataset notes](Module02_02/data/teaching/haemophilus_influenzae/README.md). |
 | [Format-validation fixtures](Module02_02/data/test/) | Compact FASTA, FASTQ, SAM/BAM, VCF, GFF3, and BED examples containing known valid properties and deliberate defects. |
+| [Session 5 blinded capstone data](Module02_02/data/capstone_blind/) | A complete bacterial release candidate containing a reference, paired reads, alignments, variants, annotation, target intervals, metadata, and integrity checks. |
 
-Materials for Session 5 will continue to be added to `Module02_02`.
+#### Session 5 capstone release candidate
+
+The blinded dataset is documented in its
+[README](Module02_02/data/capstone_blind/README.md). It contains no patient or
+participant information; the reads and variants are simulated for teaching.
+Students must preserve the supplied inputs and support their release decision
+with reproducible evidence.
+
+| File | Role in the release candidate |
+|---|---|
+| [reference.fasta](Module02_02/data/capstone_blind/reference.fasta) | Blinded circular bacterial reference sequence. |
+| [annotation.gff3](Module02_02/data/capstone_blind/annotation.gff3) | De-identified reference annotation using 1-based, closed coordinates. |
+| [reads_R1.fastq.gz](Module02_02/data/capstone_blind/reads_R1.fastq.gz) and [reads_R2.fastq.gz](Module02_02/data/capstone_blind/reads_R2.fastq.gz) | Simulated paired-end sequencing reads. |
+| [alignments.sam](Module02_02/data/capstone_blind/alignments.sam) | Text representation of the read alignments. |
+| [alignments.bam](Module02_02/data/capstone_blind/alignments.bam) and [alignments.bam.bai](Module02_02/data/capstone_blind/alignments.bam.bai) | Coordinate-sorted binary alignments and their index. |
+| [variants.vcf](Module02_02/data/capstone_blind/variants.vcf) | Candidate small variants for `sample_A`. |
+| [targets.bed](Module02_02/data/capstone_blind/targets.bed) | Candidate target intervals using 0-based, half-open coordinates. |
+| [manifest.json](Module02_02/data/capstone_blind/manifest.json) | Release expectations and simulation summary. |
+| [checksums.sha256](Module02_02/data/capstone_blind/checksums.sha256) | SHA-256 values for delivery-integrity checks. |
 
 ## Software requirements
 

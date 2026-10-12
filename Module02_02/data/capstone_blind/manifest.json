@@ -1,0 +1,39 @@
+{
+  "dataset": "capstone_blind_v1",
+  "seed": 20260921,
+  "reference": {
+    "contig": "ref_01",
+    "length": 580076,
+    "circular": true,
+    "genetic_code": 4
+  },
+  "annotation_feature_counts": {
+    "region": 1,
+    "gene": 546,
+    "CDS": 524,
+    "tRNA": 36,
+    "exon": 42,
+    "pseudogene": 20,
+    "rRNA": 3,
+    "SRP_RNA": 1,
+    "RNase_P_RNA": 1,
+    "tmRNA": 1
+  },
+  "simulation": {
+    "sample": "sample_A",
+    "read_pairs": 10000,
+    "read_length": 150,
+    "fragment_mean": 350,
+    "fragment_sd": 35,
+    "variants": 12,
+    "variant_types": {
+      "SNP": 8,
+      "INS": 2,
+      "DEL": 2
+    }
+  },
+  "alignments": {
+    "mapped_reads": 20000,
+    "unmapped_reads": 0
+  }
+}
